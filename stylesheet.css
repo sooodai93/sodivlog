@@ -267,4 +267,13 @@ footer {
   .message-wrapper .btn {
     width: 100%;
   }
+  
+  .footer-logo {
+    float: left;
+  }
+  
+  .contact {
+    float:right:
+  }
+  
 }
