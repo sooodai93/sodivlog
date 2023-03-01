@@ -1,59 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BEATBANG宮崎〜若者のためのダンスバトルイベント！！</title>
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<title>Dance Event Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="IMG_9593.PNG">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
- </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <img src="IMG_9593.PNG">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>beeeatttttttbanggggggg。<br>がんばっていきましょうエーザイ</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>メッセージはここ?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-    <div class="contact-form">
-      <h3 class="section-title">お問い合わせ</h3>
-              <p>メールアドレス（必須）</p>
-              <input>
-              <p>お問い合わせ内容（必須）</p>
-              <textarea></textarea>
-              <p>※必須項目は必ずご入力ください</p>
-              <input type="submit">
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Events</a></li>
+				<li><a href="#">Entry</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
 
-  </div>
-  <footer>
-    <div class="footer-logo">BEATBANG SINCE 2014</div>
-    <div class-"contact">問い合わせ</div>
-  </footer>
+	<main>
+		<section id="hero">
+			<img src="dance-event.jpg" alt="Dance Event">
+		</section>
+
+		<section id="events">
+			<h2>Upcoming Events</h2>
+			<ul>
+				<li><a href="#">Event 1</a></li>
+				<li><a href="#">Event 2</a></li>
+				<li><a href="#">Event 3</a></li>
+				<li><a href="#">Event 4</a></li>
+			</ul>
+		</section>
+
+		<section id="entry">
+			<h2>Entry</h2>
+			<p>Enter your information below to participate in the dance competition.</p>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+
+				<label for="dance">Dance Style:</label>
+				<select id="dance" name="dance">
+					<option value="hip-hop">Hip Hop</option>
+					<option value="ballet">Ballet</option>
+					<option value="salsa">Salsa</option>
+				</select><br>
+
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Dance Event Website</p>
+	</footer>
 </body>
 </html>
